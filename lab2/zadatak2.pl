@@ -9,4 +9,4 @@ for(0..$#b){
     $c += $b[$_];
 }
 $c /= $#b+1;
-print "aritmeticka sredina je $c"
+printf "aritmeticka sredina je %4.2f\n",$c;
